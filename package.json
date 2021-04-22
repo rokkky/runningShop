@@ -1,0 +1,20 @@
+{
+  "name": "runners_web-shop",
+  "version": "1.0.0",
+  "description": "This is a my trainee project for a practice in create a web-shop. At this project i use vanilla JS, preprocessor SaSS, npm, Git;",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "rokkky",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap-reboot": "^4.5.4"
+  },
+  "devDependencies": {
+    "gulp-cli": "^2.3.0",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.1.0",
+    "jshint": "^2.12.0"
+  }
+}
