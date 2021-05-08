@@ -115,6 +115,12 @@
   width: 300px;
   height: 50px; }
 
+.consultation__button {
+  width: 300px;
+  height: 55px;
+  font-size: 16px;
+  margin-top: 20px; }
+
 .title {
   font-size: 30px;
   font-weight: 700;
@@ -159,3 +165,31 @@
       font-size: 16px;
       width: 200px;
       height: 50px; } }
+
+.consultation {
+  min-height: 680px;
+  background: url("/src/img/shoes_bg.jpg") center center/cover no-repeat;
+  padding: 103px 0 92px 0; }
+  .consultation__header {
+    font-size: 36px;
+    font-weight: 700;
+    text-align: left;
+    color: #ffffff;
+    text-transform: uppercase; }
+  .consultation__subheader {
+    font-size: 20px;
+    font-weight: 500;
+    color: #ffffff;
+    margin-top: 70px; }
+
+.contact-form {
+  padding-top: 21px;
+  display: flex;
+  flex-direction: column; }
+  .contact-form__input {
+    font-size: 16px;
+    border-radius: 5px;
+    padding-left: 20px;
+    margin-top: 15px;
+    width: 300px;
+    height: 55px; }

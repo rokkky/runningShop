@@ -1,0 +1,13 @@
+.contact-form {
+  padding-top: 21px;
+  display: flex;
+  flex-direction: column;
+  &__input {
+    font-size: 16px;
+    border-radius: 5px;
+    padding-left: 20px;
+    margin-top: 15px;
+    width: 300px;
+    height: 55px;
+  }
+}
