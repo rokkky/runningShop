@@ -1,0 +1,110 @@
+.catalog {
+  padding-bottom: 20px;
+  &__navigation {
+    margin-top: 69px;
+    display: flex;
+    justify-content: center;
+  }
+  &__selector {
+    width: 220px;
+    height: 50px;
+    transform: skew(-20deg);
+    border: solid 2px #d0d0d0;
+    text-align: center;
+    line-height: 45px;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #6b6b6b;
+    margin-right: 8px;
+    &_active {
+      border: none;
+      background-color: #c70101;
+      color:#ffffff;
+    }
+  }
+  &__img {
+    width: 140px;
+    height: 200px;
+  }
+  &__wrapper {
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+  &__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    height: 440px;
+    margin-bottom: 20px;
+    margin-right: 16px;
+    padding: 10px 21px 27px 21px;
+    border: solid 2px #e8e8e8; 
+    &_active {
+      justify-content: space-between;
+    }
+  }
+  &__name {
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    color: #0d0d0d;
+  }
+  &__descr {
+    margin-top: 16px;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    color: #0d0d0d;
+  }
+  &__more {
+    margin-top: 17px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-size: 14px;
+    color:#c70101;
+    cursor: pointer;
+  }
+  &__purchase {
+    margin-top: 10px;
+    padding-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    border-top: solid 1px #d0d0d0;
+  }
+  &__price {
+    margin-right: 25px;
+  }
+  &__old-price {
+    font-size: 14px;
+    font-weight: 300;
+    text-decoration:line-through;
+    text-align: left;
+    color: #555555;
+  }
+  &__current-price {
+    line-height: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #050505;
+  }
+  ul {
+    list-style-type: square;
+    li {
+      color: #c70101;
+      span {
+        font-size: 14px;
+        font-weight: 300;
+        text-align: left;
+        color: #555555;
+      }
+    }
+  }
+}
