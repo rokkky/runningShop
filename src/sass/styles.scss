@@ -1,22 +1,12 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 .container {
   width: 950px;
   margin: 0 auto;
 }
-
-@import "blocks/advantages";
-@import "blocks/promo";
-@import "blocks/buttons";
-@import "blocks/titles";
-@import "blocks/media"; 
-@import "blocks/consultation";
-@import "blocks/forms";
-@import "blocks/slider";
-@import "blocks/catalog";
-@import "blocks/review";
-
 .carts {
   position: relative;
   padding: 50px 0;
@@ -49,3 +39,27 @@
     justify-content: space-around;
   }
 }
+.fade{
+  animation-name: fade;
+  animation-duration: 1s;
+}
+.show {
+  display: block;
+}
+.hide {
+  display: none;
+}
+
+
+@import "blocks/advantages";
+@import "blocks/promo";
+@import "blocks/buttons";
+@import "blocks/titles";
+@import "blocks/media"; 
+@import "blocks/consultation";
+@import "blocks/forms";
+@import "blocks/slider";
+@import "blocks/catalog";
+@import "blocks/review";
+@import "blocks/modal";
+
