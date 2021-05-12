@@ -191,6 +191,10 @@
       text-align: center;
       margin-top: 30px;
     }
+    &__button {
+      width: 270px;
+      height: 40px;
+    }
   }
   .advantages {
     padding: 20px;
@@ -199,6 +203,29 @@
       align-items: center;
       margin-top: 20px;
     }
+  }
+  .modal {
+    &__content {
+      padding: 25px;
+    }
+    &__title {
+      font-size: 17px;
+    }
+    &__close {
+      top: -9px;
+      right: 3px;
+    }
+  }
+  .contact-form__input {
+    height: 35px;
+    width: 270px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 410px) {
+  .slider__item img {
+    width: 236px;
+    height: 210px;
   }
   
 }
