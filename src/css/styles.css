@@ -175,44 +175,6 @@
   color: #0d0d0d;
   text-transform: uppercase; }
 
-@media screen and (max-width: 1023px) {
-  .container {
-    max-width: 100%; }
-  .promo__content {
-    align-items: center; } }
-
-@media (min-width: 320px) and (max-width: 640px) {
-  .promo {
-    background-position-x: -461px;
-    padding: 10px 0 30px 0;
-    max-height: 100%; }
-    .promo__content {
-      margin-top: 40px; }
-    .promo__header {
-      font-size: 25px; }
-    .promo__subheader {
-      font-size: 18px; }
-    .promo__icons {
-      align-items: flex-end;
-      width: 100%; }
-  .header {
-    flex-direction: column; }
-    .header__official {
-      margin-top: 20px;
-      font-size: 20px; }
-      .header__official span {
-        font-size: 20px; }
-    .header__contacts {
-      margin-top: 20px; }
-    .header__phone {
-      font-size: 20px;
-      text-align: center; }
-    .header__button {
-      margin-top: 15px;
-      font-size: 16px;
-      width: 200px;
-      height: 50px; } }
-
 .consultation {
   min-height: 680px;
   background: url("/src/img/shoes_bg.jpg") center center/cover no-repeat;
@@ -427,3 +389,141 @@
     border: none;
     background-color: transparent;
     cursor: pointer; }
+
+@media screen and (max-width: 1023px) {
+  .container {
+    max-width: 100%; }
+  .promo__content {
+    align-items: center; }
+  .consultation {
+    padding: 40px 0 50px 0; }
+    .consultation__header {
+      text-align: center; }
+    .consultation__subheader {
+      text-align: center;
+      margin-top: 30px; }
+  .contact-form {
+    align-items: center; }
+  .slider {
+    padding: 70px 0; }
+    .slider__wrapper {
+      margin: 0 10px 0 10px; }
+    .slider__window {
+      margin: 0 5px 0 5px; }
+    .slider__item img {
+      width: 550px;
+      height: 400px; }
+  .catalog__selector {
+    width: 180px; }
+  .catalog__wrapper {
+    padding: 20px; }
+  .catalog__item {
+    width: 280px;
+    height: 430px; }
+  .catalog__button {
+    width: 115px; }
+  .review__wrapper {
+    padding: 10px; }
+  .review__item {
+    padding: 10px 0; }
+  .carts {
+    padding: 20px 0; }
+    .carts__contacts {
+      padding: 28px 10px 28px 10px;
+      width: 360px;
+      height: 220px; }
+    .carts__adres {
+      font-style: 18px; }
+    .carts__phone {
+      font-style: 18px;
+      margin-top: 5px; } }
+
+@media (min-width: 320px) and (max-width: 640px) {
+  .promo {
+    background-position-x: -461px;
+    padding: 10px 20px 30px 20px;
+    max-height: 100%; }
+    .promo__content {
+      margin-top: 40px; }
+    .promo__header {
+      font-size: 25px; }
+    .promo__subheader {
+      font-size: 18px; }
+    .promo__icons {
+      align-items: flex-end;
+      width: 100%; }
+  .header {
+    flex-direction: column; }
+    .header__official {
+      margin-top: 20px;
+      font-size: 20px; }
+      .header__official span {
+        font-size: 20px; }
+    .header__contacts {
+      margin-top: 20px; }
+    .header__phone {
+      font-size: 20px;
+      text-align: center; }
+    .header__button {
+      margin-top: 15px;
+      font-size: 16px;
+      width: 200px;
+      height: 50px; }
+  .review__img {
+    width: 110px;
+    height: 110px; }
+  .review__wrapper {
+    padding: 20px; }
+  .review__item {
+    align-items: center; }
+  .review__descr {
+    margin-top: 7px;
+    font-size: 14px;
+    line-height: 17px; }
+  .carts {
+    padding: 15px 0; }
+    .carts__social {
+      width: 80%; }
+    .carts__contacts {
+      padding: 18px 10px 28px 10px;
+      width: 100%;
+      height: 200px; }
+    .carts__adres {
+      font-style: 16px; }
+    .carts__phone {
+      font-style: 16px;
+      margin-top: 5px; }
+  .catalog__wrapper {
+    margin-top: 20px;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center; }
+  .catalog__navigation {
+    flex-direction: column;
+    align-items: center; }
+  .catalog__item {
+    margin-right: 0; }
+  .catalog__selector {
+    margin-top: 5px; }
+  .slider {
+    padding: 40px 0; }
+    .slider__wrapper {
+      margin: 0 10px 0 10px; }
+    .slider__item img {
+      width: 330px;
+      height: 250px; }
+  .consultation {
+    max-height: 680px;
+    padding: 20px 20px 25px 20px; }
+    .consultation__header {
+      text-align: center;
+      font-size: 25px; }
+    .consultation__subheader {
+      text-align: center;
+      margin-top: 30px; }
+  .advantages {
+    padding: 20px; }
+    .advantages__content {
+      flex-direction: column;
+      align-items: center;
+      margin-top: 20px; } }
