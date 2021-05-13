@@ -36,7 +36,7 @@ const triathlon = [];
 const ft1 = new CatalogItem (
   "1",
   "fitness",
-  "/src/img/any_clock.png",
+  "/docs/img/any_clock.png",
   "Пульсометр Polar FT1",
   "Для первых шагов в тренировках, основанных на сердечном ритме",
   "4750 руб.",
@@ -48,7 +48,7 @@ ft1.render();
 const ft2 = new CatalogItem (
   "2",
   "fitness",
-  "/src/img/any_clock.png",
+  "/docs/img/any_clock.png",
   "Пульсометр Polar FT2",
   "Для первых шагов в тренировках, основанных на сердечном ритме",
   "5000 руб.",
@@ -60,7 +60,7 @@ ft2.render();
 const ft3 = new CatalogItem (
   "3",
   "fitness",
-  "/src/img/any_clock.png",
+  "/docs/img/any_clock.png",
   "Пульсометр Polar FT3",
   "Для первых шагов в тренировках, основанных на сердечном ритме",
   "4000 руб.",
@@ -72,7 +72,7 @@ ft3.render();
 const suu1 = new CatalogItem (
   "4",
   "running",
-  "/src/img/any_clock.png",
+  "/docs/img/any_clock.png",
   "Пульсометр Suunto M1",
   "Пульсометр начального уровня с комфортным тканевым ремешком",
   "5750 руб.",
@@ -84,7 +84,7 @@ running.push(suu1);
 const suu2 = new CatalogItem (
   "5",
   "running",
-  "/src/img/any_clock.png",
+  "/docs/img/any_clock.png",
   "Пульсометр Suunto M2",
   "Пульсометр начального уровня с комфортным тканевым ремешком",
   "5350 руб.",
@@ -96,7 +96,7 @@ running.push(suu2);
 const suu3 = new CatalogItem (
   "6",
   "running",
-  "/src/img/any_clock.png",
+  "/docs/img/any_clock.png",
   "Пульсометр Suunto M3",
   "Пульсометр начального уровня с комфортным тканевым ремешком",
   "5150 руб.",
@@ -108,7 +108,7 @@ running.push(suu3);
 const tr1 = new CatalogItem (
   "7",
   "running",
-  "/src/img/any_clock.png",
+  "/docs/img/any_clock.png",
   "Пульсометр Polar TR1",
   "Улучшенная версия классического пульсометра Polar",
   "6000 руб.",
@@ -120,7 +120,7 @@ triathlon.push(tr1);
 const tr2 = new CatalogItem (
   "8",
   "running",
-  "/src/img/any_clock.png",
+  "/docs/img/any_clock.png",
   "Пульсометр Polar TR2",
   "Улучшенная версия классического пульсометра Polar",
   "6100 руб.",
@@ -132,7 +132,7 @@ triathlon.push(tr2);
 const tr3 = new CatalogItem (
   "9",
   "running",
-  "/src/img/any_clock.png",
+  "/docs/img/any_clock.png",
   "Пульсометр Polar TR3",
   "Улучшенная версия классического пульсометра Polar",
   "6200 руб.",
